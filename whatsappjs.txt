@@ -1,0 +1,42 @@
+function fun(){
+    let comm=document.querySelector("#id2").value;
+    let newElement=document.createElement("div");
+    newElement.textContent=comm;
+    newElement.style.background="#4cd34ce5";
+    newElement.style.width=comm.length+ "5px";
+    newElement.style.height=comm.length+ "2.5px";
+    //newElement.style.marginTop="5px";
+    newElement.style.display="flex";
+    newElement.style.justifyContent="end";
+    newElement.style.alignItems="center";
+    newElement.style.margin="5px";
+    newElement.style.padding="2.5px";
+    newElement.style.borderRadius="0px 7px 7px 7px ";
+    
+
+    let commentBox=document.querySelector("#msg");
+    commentBox.appendChild(newElement);
+    document.querySelector("#id2").value="";
+}
+
+function fun2(){
+    let comm1=document.querySelector("#id3").value;
+    let newElement1=document.createElement("div");
+    newElement1.textContent=comm1;
+    newElement1.style.width=comm1.length+ "5px";
+    newElement1.style.height=comm1.length+ "2.5px";
+    newElement1.style.marginTop="5px";
+    newElement1.style.background="white";
+    newElement1.style.display="flex";
+    newElement1.style.justifyContent="end";
+    newElement1.style.alignItems="center";
+    newElement1.style.margin="5px";
+    newElement1.style.padding="2.5px";
+    newElement1.style.borderRadius="0px 7px 7px 7px ";
+    
+    
+
+    let commentBox1=document.querySelector("#msg");
+    commentBox1.appendChild(newElement1);
+    document.querySelector("#id3").value="";
+}
