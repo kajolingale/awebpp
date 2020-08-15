@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script src="9.js"></script>
+    </head>
+    <body>
+        <div>post</div>
+        <div style="margin-top:10px;">
+            <button id="likebtn" onclick="like()">Like👍 1</button>
+            <input type="text" id="id2"></input>
+            <button onclick="fun()">Comment✏</button>
+        </div>
+        <div id="commentBox"></div>
+    </body>
+</html>
