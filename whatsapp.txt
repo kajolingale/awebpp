@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="whatsapp.js"></script>
+        <link rel="stylesheet" href="whatsapp.css"/>
+    </head>
+    <body>
+        <div style="display:flex; justify-content: center; align-items: center; height:100vh">
+            <div style="display:flex; width:900px; justify-content: space-between;">
+                <div style="height:500px; width:400px; background-image:url(wh.jpg)">
+                    <div>
+                        <div class="c1">
+                            <div style="display:flex; justify-content:start; align-items: center; color:white">
+                                <img src="kaju.jpg" style="height:40px; width:40px; border-radius:50%; margin:5px;"> 
+                                <div><b>Kajol</b>
+                                <br>10:30 PM</div>
+                        
+                            </div>
+                            
+                            <div style= "display:flex; align-items: center; justify-content: space-between;">
+                               <div style="margin-right:20px"> <i class="fa fa-video-camera" style="font-size:25px; color:white;"></i></div>
+                               <div  style="margin-right:20px"> <i class="fa fa-phone" style="font-size:25px; color:white;"></i></div>
+                                <div  style="margin-right:10px"><i class="fa fa-ellipsis-v" style="font-size:25px; color:white;"></i></div>
+                            
+                            </div>
+
+                        </div>
+                        
+                        <div style="height:395px;" id="msg"></div>
+                        <div style="height:50px; display:flex; ">
+                            <div style="background: white; flex:5; border-radius: 25px; margin:5px; display: flex; justify-content: start; align-items: center; padding-left: 10px; ">
+                                <div><i class="fa fa-smile-o" style="font-size:25px; color:gray;"></i></div>
+                                <input type="text" id="id2" style="border:none; outline:none; color:black; padding-left: 5px; height:20px;">
+                            
+                            </div>
+                            
+                            
+                            <div style="background:rgba(1, 54, 1, 0.897); flex:1; width:50px; height:50px; border-radius: 60%; margin-right:10px; display:flex;
+                            align-items:center; justify-content: center;">
+                              <div onclick="fun()"><i class="fa fa-microphone" style="font-size:25px; color:white;"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div style="height:500px; width:400px; background-image:url(wh.jpg)">
+                    <div>
+                        <div class="c1">
+                            <div style="display:flex; justify-content:start; align-items: center; color:white">
+                                <img src="kaju.jpg" style="height:40px; width:40px; border-radius:50%; margin:5px;"> 
+                                <div><b>Kajol</b>
+                                <br>10:30 PM</div>
+                        
+                            </div>
+                            
+                            <div style= "display:flex; align-items: center; justify-content: space-between;">
+                               <div style="margin-right:20px"> <i class="fa fa-video-camera" style="font-size:25px; color:white;"></i></div>
+                               <div  style="margin-right:20px"> <i class="fa fa-phone" style="font-size:25px; color:white;"></i></div>
+                                <div  style="margin-right:10px"><i class="fa fa-ellipsis-v" style="font-size:25px; color:white;"></i></div>
+                            
+                            </div>
+
+                        </div>
+                        
+                        <div style="height:395px;" id="msg"></div>
+                        <div style="height:50px; display:flex; ">
+                            <div style="background: white; flex:5; border-radius: 25px; margin:5px; display: flex; justify-content: start; align-items: center; padding-left: 10px; ">
+                                <div><i class="fa fa-smile-o" style="font-size:25px; color:gray;"></i></div>
+                                <input type="text" id="id3" style="border:none; outline:none; color:black; padding-left: 5px; height:20px;">
+                            
+                            </div>
+                            
+                            
+                            <div style="background:rgba(1, 54, 1, 0.897); flex:1; width:50px; height:50px; border-radius: 60%; margin-right:10px; display:flex;
+                            align-items:center; justify-content: center;" >
+                              <div onclick="fun2()"><i class="fa fa-microphone" style="font-size:25px; color:white;"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+    </html>
+    
