@@ -1,0 +1,15 @@
+let count=1;
+
+function inc()
+{
+    let countEle = document.querySelector("#count");
+    count=count+1;
+    countEle.innerHTML=count;
+}
+
+function dnc()
+{
+    let countEle = document.querySelector("#count");
+    count=count-1;
+    countEle.innerHTML=count;
+}
