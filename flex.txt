@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <style>
+        body{
+            margin:0;
+        }
+    img{
+         height:300px;
+    }    
+    </style>
+        
+
+    </head>
+    <body>
+            <div style="background:pink; height:70px; text-align:center;"><h2>Header</h2></div>
+            <div style="display:flex;">
+                <div style="background:skyblue; height:700px; flex:1;">1</div>
+                <div style="background:tomato; height: 700px; flex:3;" >
+                    <div style="display:flex; justify-content:center; align-items:center; padding:12px;">
+                        <div style="flex:1; background:rebeccapurple;height:350px;"></div>
+                        <div style="flex:1; background:rgb(92, 153, 51);height:350px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; align-items:center; padding:12px;">
+                        <div style="flex:1; background:rgb(86, 189, 95);height:300px;"></div>
+                        <div style="flex:1; background:rebeccapurple;height:300px;"></div>
+                    </div>
+                </div>
+                <div style="background:skyblue; height:700px; flex:1;" >3</div>
+            </div>
+            <div style="background:pink; height:50px;"></div>
+    </body>
+</html>
