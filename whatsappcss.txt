@@ -1,0 +1,7 @@
+.c1{
+    height:50px; 
+    background:rgba(1, 54, 1, 0.897); 
+    display:flex; 
+    justify-content: space-between;
+}
+
