@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="10.js"></script>
+    </head>
+    <body>
+        <div><img src="kaju2.jpg" style="height:300px; width:300px;"></img></div>
+        <div style="margin-top:10px;">
+            <button id="likebtn" onclick="like()">Like👍 1</button>
+            <input type="text" id="id2"></input>
+            <button onclick="fun()">Comment✏</button>
+        </div>
+        <div id="commentBox">
+            <div
+            id="ref"
+            style="
+              display: flex;
+              justify-content: space-between;
+              visibility: hidden;
+            "
+          >
+            <div></div>
+            <button>Deelte</button>
+          </div>
+        </div>
+        
+    </body>
+</html>
