@@ -1,0 +1,16 @@
+let likecount=1;
+
+function fun(){
+    let comm=document.querySelector("#id2").value;
+    let newElement=document.createElement("div");
+    newElement.textContent=comm;
+
+    let commentBox=document.querySelector("#commentBox");
+    commentBox.appendChild(newElement);
+    document.querySelector("#id2").value="";
+}
+
+function like(){
+    likecount++;
+    document.querySelector("#likebtn").innerHTML="Like👍"+likecount;
+}
