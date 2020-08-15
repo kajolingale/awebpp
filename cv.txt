@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+            <div class="row bg-secondary" style="height: 50px;">
+
+            </div>
+            <div class="row" style="height: 700px;">
+                
+                <div class="col-5 ">
+                    <!--heading-->
+                    <div class="row" style="height: 100px; background: rgb(231, 229, 121);">
+                        <div class="col-4">
+                            <img src="kaju.jpg" style="height:120px; width:120px; border-radius: 50%; position: relative; margin-top: 10px;">
+                        </div>
+                        <div class="col-7 bg-danger">
+                            <div style="padding:10px;color:white;font-size:32px; font-family:cursive;">Kajol Ingale</div>
+                             <div style="padding:10px;color:white;font-size:28px; font-family:cursive;">Web Developer</div>
+                        </div>
+                         
+                    </div>
+                    <div class="row" style="height: 50px; border-bottom: 1px solid rgb(172, 168, 168);"></div>
+                    <!--info-->
+                    <div class="row" style="height:550px">
+                        <div class="col-4" style="border-right: 1px solid rgb(172, 168, 168);">
+                            <div class="row" style="font-size:15px;">
+                                <b>BORN</b>
+                                <p style="margin-top:5px; font-size:15px">July 30, 1997<br>
+                                Father's Name Damodar Ingale.</p>
+                            </div>
+                            <div class="row" style="font-size:15px; margin-top: 10px;">
+                                <b>CONTACT</b>
+                                <p style="margin-top:5px; font-size:15px">Phone:7276196865<br>
+                                Email: kajol3102@gmail.com</p>
+                            </div>
+                            <div class="row" style="font-size:15px; margin-top: 10px;">
+                                🧑‍🤝‍🧑<br>
+                                <b>LANGUAGE</b>
+                                <p style="margin-top:5px;">English, Hindi, Marathi</p>
+                            </div>
+                            <div class="row" style="font-size:15px; margin-top: 10px;">
+                                ❤<br>
+                                <b>INTERESTS</b>
+                                <ul><li>Dancing</li><li>Singing</li><li>Cooking</li></ul>
+                            </div>
+
+                        </div>
+                    <!--details-->
+                        <div class="col-8">
+                            <div class="row" style="font-size:15px;">
+                                <span style="color:rgb(201, 157, 47);margin-top:5px;"><b>Career Objective</b></span>
+                                    <p>To make up a challenging career which gives me, immense satisfaction and which 
+                                        helps the team grow continuously that I associate myself with.</p>
+                            </div>
+                            <div class="row" style="font-size:15px;">
+                                <span style="color:rgb(201, 157, 47);margin-top:10px;"><b>Education</b></span>
+                                 <ul><li>Bachelor of Engineering in Electronics and Telecommunication from Pune University, 
+                                     2018-2019, Cumulative Pointer 5.94</li>
+                                    <li>Diploma in Electronics and Telecommunication from Pune University, 
+                                        2016, Cumulative Aggregate 72.53%.</li>
+                                    <li>S.S.C from Maharashtra Board of Secondary Education, 2013, 80.00%</li>
+                                </ul>
+                            </div>
+                            <div class="row" style="font-size:15px;">
+                                <span style="color:rgb(201, 157, 47);margin-top:10px;"><b>Technical Summary</b></span>
+                                 <ul><li><b>Languages Known:</b> C, C++</li>
+                                 <li><b>Web Technologies:</b> HTML, CSS.</li>
+                                <li><b>Scripting Languages:</b> Java Script.</li>
+                                <li><b>Database:</b> SQL Server</li>
+                                <li><b>Operating Systems:</b> All Windows environments, LINUX</li>
+                                </ul>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 bg-secondary"></div>
+                <div class="col-5">
+                    <div class="row mt-5 " style="height:500px;">
+                        <div class="col-4" style="border-right:1px solid rgb(211, 206, 206);">
+                            <div class="row" style="font-size:15px;">
+                                <b>STRENGTHS</b>
+                                <ul>
+                                    <li>Hardworking</li>
+                                    <li>Quick learner</li>
+                                    <li>Creative</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="col-8">
+                            <div class="row" style="font-size:15px;">
+                                <span style="color:rgb(201, 157, 47);margin-top:5px;"><b>Acheivements</b></span>
+                                    <p>Participated in state level Quiz competion and won 1st price.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-danger" style="height:130px; "></div>
+                </div>
+            
+            
+            </div>
+            <div class="row bg-secondary" style="height: 50px;"></div>
+        </div>
+
+    </body>
+</html>
