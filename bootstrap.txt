@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div class="row bg-primary sticky-top rounded" style="height:100px"></div>
+        <div class="row mt-1" style="height:750px">
+            <div class="col-3 mr-2 ml-5 bg-warning rounded"  ></div>
+            <div class="col-12 col-md-8 " >
+                <div class="row bg-warning rounded" style="height:200px;"></div>
+                <div class="row bg-warning mt-1 rounded" style="height:200px;"></div>
+                <div class="row bg-warning mt-1 rounded" style="height:200px;"></div>
+                <div class="row bg-warning mt-1 rounded" style="height:150px;"></div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
