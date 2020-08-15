@@ -1,0 +1,14 @@
+let likecount=1;
+
+function fun(){
+    let newElement=document.createElement("div");
+    newElement.textContent="user comment";
+
+    let commentBox=document.querySelector("#commentBox");
+    commentBox.appendChild(newElement);
+}
+
+function like(){
+    likecount++;
+    document.querySelector("#likebtn").innerHTML="Like👍"+likecount;
+}
